@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tampilanawal">
+
+    <TextView
+        android:id="@+id/tulisan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:text="@string/universitas_pancasila4"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/gambar2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/up"
+        android:layout_margin="120dp"
+        android:contentDescription="up" />
+    <TextView
+        android:id="@+id/tulisan0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Selamat Datang"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/tombol1"
+            android:layout_width="119dp"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:text="Data Diri"
+            />
+        <Button
+            android:id="@+id/tombol2"
+            android:layout_width="119dp"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:text="Pemilihan"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/tombol3"
+        android:layout_width="119dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="400dp"
+        android:text="Hasil Nilai"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="650dp"
+        android:background="#008"
+        android:gravity="center"
+        android:text="E-Mail : Email@univpancasila.ac.id"
+        android:textColor="#2E7D32"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="550dp"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@android:drawable/ic_menu_share" />
+</RelativeLayout>

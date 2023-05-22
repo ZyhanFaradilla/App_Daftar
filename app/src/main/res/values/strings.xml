@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AppDaftar</string>
+    <string name="data_diri_peserta">Data Diri Peserta</string>
+    <string name="menyalakan_kamera">menyalakan kamera</string>
+    <string name="hasil_pemilihan">Hasil Pemilihan</string>
+    <string name="pilihan_2">Pilihan 2</string>
+    <string name="jurusan_manajemen">Jurusan Manajemen</string>
+    <string name="pilihan_1">Pilihan 1</string>
+    <string name="jurusan_bisnis">Jurusan Bisnis</string>
+    <string name="diterima">Diterima</string>
+    <string name="pilihan_3">Pilihan 3</string>
+    <string name="jurusan_ekonomi">Jurusan Ekonomi</string>
+    <string name="e_mail_email_univpancasila_ac_id">E-mail : Email@univpancasila.ac.id</string>
+    <string name="kembali">kembali</string>
+    <string name="hasil_nilai_ujian">Hasil Nilai Ujian</string>
+    <string name="skor_bahasa_indonesia_70">Skor Bahasa Indonesia : 70</string>
+    <string name="skor_bahasa_inggris_78">Skor Bahasa Inggris : 78</string>
+    <string name="skor_matematika_65">Skor Matematika : 65</string>
+    <string name="skor_tka_soshum_70">Skor TKA Soshum : 70</string>
+    <string name="skor_yang_didapatkan_70_75">Skor Yang Didapatkan : 70,75</string>
+    <string name="kembali1">kembali</string>
+    <string name="e_mail_email_univpancasila_ac_id1">E-mail : Email@univpancasila.ac.id</string>
+    <string name="kembali2">kembali</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="show_password">Show Password</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="password">Password</string>
+    <string name="universitas_pancasila1">Universitas Pancasila</string>
+    <string name="selamat_datang3">Selamat Datang</string>
+    <string name="universitas_pancasila3">Universitas Pancasila</string>
+    <string name="universitas_pancasila4">Universitas Pancasila</string>
+    <string name="tidak_diterima3">Tidak Diterima</string>
+    <string name="tidak_diterima4">Tidak Diterima</string>
+</resources>

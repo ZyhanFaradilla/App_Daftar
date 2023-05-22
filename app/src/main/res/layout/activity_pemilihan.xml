@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pemilihan"
+    tools:ignore="ExtraText"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil_pemilihan"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/pilihan_1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/jurusan_manajemen"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/tidak_diterima4"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#DC143C"
+        android:layout_marginStart="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/pilihan_2"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/jurusan_bisnis"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/diterima"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#008000"
+        android:layout_marginStart="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/pilihan_3"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/jurusan_ekonomi"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/tidak_diterima3"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#DC143C"
+        android:layout_marginStart="40dp" />
+    <Button
+        android:id="@+id/tombol5"
+        android:layout_width="119dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="135dp"
+        android:layout_gravity="center"
+        android:text="@string/kembali1"
+        android:layout_marginStart="135dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="650dp"
+        android:background="#008"
+        android:gravity="center"
+        android:text="@string/e_mail_email_univpancasila_ac_id"
+        android:textColor="#2E7D32"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
